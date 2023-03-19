@@ -62,7 +62,7 @@ const Cocktails: React.FC = () => {
                     {cocktailData && (
                         <CocktailItem title={cocktailData.name} picture={cocktailData.imageUrl} category={cocktailData.category} type={cocktailData.type} glass={cocktailData.glass} instructions={cocktailData.instructions} ingredients={cocktailData.ingredients}></CocktailItem>
                     )}
-                    <IonButton expand="block" onClick={handleGetRandomCocktail}>
+                    <IonButton expand="block" style={{ margin: '20px' }}  onClick={handleGetRandomCocktail}>
                         Get Random Cocktail
                     </IonButton>
             </IonContent>

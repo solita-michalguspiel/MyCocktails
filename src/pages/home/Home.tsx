@@ -20,7 +20,7 @@ const Home: React.FC = () => {
                 <h1 className="title">Welcome to MyCocktails App!</h1>
                 <h4>Explore wide variety of delicious cocktails and find your new favorite drink.</h4>
                 <AnimatedDrink></AnimatedDrink>
-                <IonButton routerLink="/page/favourites" className='button'>Check some cocktails!</IonButton>
+                <IonButton routerLink="/page/cocktails" className='button'>Check some cocktails!</IonButton>
 
             </IonContent>
         </IonPage>
