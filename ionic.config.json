@@ -1,0 +1,7 @@
+{
+  "name": "MyCocktails",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

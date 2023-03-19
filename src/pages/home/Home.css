@@ -1,0 +1,10 @@
+.title{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.button{
+    display: flex;
+    justify-content: end;
+}
